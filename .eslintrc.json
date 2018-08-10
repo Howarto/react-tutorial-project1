@@ -1,0 +1,16 @@
+{
+    "extends": ["airbnb-base"],
+    "rules": {
+        "brace-style": ["error", "stroustrup"],
+        "react/jsx-uses-react": "error",
+        "react/jsx-uses-vars": "error"
+    },
+    "plugins": [
+        "react"
+    ],
+    "parserOptions": {
+        "ecmaFeatures": {
+            "jsx": true
+        }
+    }
+}
