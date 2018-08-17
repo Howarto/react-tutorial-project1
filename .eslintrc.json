@@ -3,7 +3,8 @@
     "rules": {
         "brace-style": ["error", "stroustrup"],
         "react/jsx-uses-react": "error",
-        "react/jsx-uses-vars": "error"
+        "react/jsx-uses-vars": "error",
+        "class-methods-use-this": "off"
     },
     "plugins": [
         "react"
