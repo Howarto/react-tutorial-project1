@@ -4,7 +4,8 @@
         "brace-style": ["error", "stroustrup"],
         "react/jsx-uses-react": "error",
         "react/jsx-uses-vars": "error",
-        "class-methods-use-this": "off"
+        "class-methods-use-this": "off",
+        "arrow-body-style": ["error", "always"]
     },
     "plugins": [
         "react"
