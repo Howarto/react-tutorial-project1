@@ -5,7 +5,9 @@
         "react/jsx-uses-react": "error",
         "react/jsx-uses-vars": "error",
         "class-methods-use-this": "off",
-        "arrow-body-style": ["error", "always"]
+        "arrow-body-style": ["error", "always"],
+        "no-prototype-builtins": "off",
+        "no-restricted-syntax": "off"
     },
     "plugins": [
         "react"
