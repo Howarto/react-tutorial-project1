@@ -16,7 +16,6 @@ export default class TodoForm extends Component {
           <button className="btn btn-outline-secondary" type="button" onClick={() => {
             this.props.onClick(this.input.value);
             this.input.value = '';
-            this.input.focus();
           }}>+</button>
         </div>
       </div>
