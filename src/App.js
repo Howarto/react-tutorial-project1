@@ -35,7 +35,7 @@ class App extends Component {
 
   handleRemoveTodo(id) {
     const currentTodos = this.state.data.filter((todo) => {
-      if (todo.id !== id) return todo;
+      return todo.id === id ? null : todo.id;
     });
     this.setState({ data: currentTodos });
   }
