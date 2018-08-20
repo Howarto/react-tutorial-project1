@@ -7,8 +7,8 @@ export default class TodoForm extends Component {
         <input type="text" className="form-control" aria-label="Large" aria-describedby="inputGroup-sizing-sm" ref={(node) => {
           this.input = node;
         }} />
-        <div class="input-group-btn">
-          <button class="btn btn-outline-secondary" type="button" onClick={() => {
+        <div className="input-group-btn">
+          <button className="btn btn-outline-secondary" type="button" onClick={() => {
             this.props.onClick(this.input.value);
             this.input.value = '';
             this.input.focus();
